@@ -20,6 +20,7 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animation.css">
 
 </head>
 
@@ -123,8 +124,10 @@
             </div>
         </div>
     </section>
-
     <!-- Portfolio -->
+
+
+
     <section class="content-section" id="portfolio">
         <div class="container">
             <div class="content-section-heading text-center">
@@ -132,62 +135,169 @@
                 <h2 class="mb-5">Recent Projects</h2>
             </div>
             <div class="row no-gutters">
+                <!-- Project 1 -->
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="src/edm_template1.html" target="_blank">
+                    <!-- Button trigger modal -->
+                    <a class="portfolio-item" data-toggle="modal" data-target="#projectModal_1">
                         <span class="caption">
-                          <span class="caption-content">
-                            <h2>Generic EDM template</h2>
+                        <span class="caption-content">
+                            <h2>eCommerce EDM template</h2>
                             <ul>
-                                <li>Built from scratch using email-specific HTML and CSS</li>
-                                <li>Tested aross over 20 Email Providers and Devices(i.e. Desktop, Tablet, Mobile, etc)</li>
-                                <li>Modular layouts, such as one-colume layout, two-colume layout, introduction, header, and footer</li>
-                                <li>Can be customized for different purposes</li>
+                                <li>Responsive EDM template</li>
+                                <li>Industry: eCommerce</li>
+                                <li>Offers and Promotions</li>
                             </ul>
-                          </span>
+                        </span>
                         </span>
                         <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
                     </a>
-                </div>
+                    <!-- Modal -->
+                    <div class="portfolio-content modal fade" id="projectModal_1" tabindex="-1" role="dialog" aria-labelledby="projectModal_1_Title" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="projectModal_1_Title">eCommerce EDM template</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="viewer">
+                                        <img src="img/codaHome_welcome.jpg" alt="">
+                                    </div>
 
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="src/edm_template3.html" target="_blank">
-                        <span class="caption">
-                          <span class="caption-content">
-                            <h2>Coffee Shop template</h2>
-                            <ul>
-                                <li>Responsive Email template with Full screen size of Background</li>
-                                <li>Well designed</li>
-                            </ul>
-                          </span>
-                        </span>
-                        <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-                    </a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <a role="button" class="btn btn-primary" href="src/codaHome_welcome.html" target="_blank">Live Template</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- Project 1 end -->
+                <!-- Project 2 -->
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="src/edm_template4.html" target="_blank">
+                    <!-- Button trigger modal -->
+                    <a class="portfolio-item" data-toggle="modal" data-target="#projectModal_2">
                         <span class="caption">
-                          <span class="caption-content">
-                            <h2>Retail Email template</h2>
-                            <ul>
-                                <li>This specific email template can be used in retail industry</li>
-                                <li>This is based on Mailchimp platform with variables</li>
-                            </ul>
-                          </span>
-                        </span>
-                        <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="src/edm_template2.html" target="_blank">
-                        <span class="caption">
-                          <span class="caption-content">
-                            <h2>Chrismas card - Email</h2>
-                            <p class="mb-0">This email template is used for sending Chrismas Greeting</p>
-                          </span>
+                            <span class="caption-content">
+                                <h2>Order Confirmation EDM template</h2>
+                                <ul>
+                                    <li>Transaction email</li>
+                                    <li>Responsive email template and ested aross over 20 Email Providers and Devices(i.e. Desktop, Tablet, Mobile, etc)</li>
+                                </ul>
+                            </span>
                         </span>
                         <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
                     </a>
+                    <!-- Modal -->
+                    <div class="portfolio-content modal fade" id="projectModal_2" tabindex="-1" role="dialog" aria-labelledby="projectModal_2" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="projectModal_2_Title">Transacton Email</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="viewer">
+                                        <img src="img/codaHome_orderConfirmation.jpg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <a role="button" class="btn btn-primary" href="src/codaHome_orderConfirmation.html" target="_blank">Live Template</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- Project 2 end -->
+                <!-- Project 3 -->
+                <div class="col-lg-6">
+                    <!-- Button trigger modal -->
+                    <a class="portfolio-item" data-toggle="modal" data-target="#projectModal_3">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2>Coffee Shop template</h2>
+                                <ul>
+                                    <li>Responsive Email template with Full screen size of Background</li>
+                                    <li>Well designed. This specific email template can be used in retail industry</li>
+                                </ul>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+                    </a>
+                    <!-- Modal -->
+                    <div class="portfolio-content modal fade" id="projectModal_3" tabindex="-1" role="dialog" aria-labelledby="projectModal_3_Title" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="projectModal_3_Title">Coffee Shop template</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="viewer">
+                                        <img src="img/coffeeShop_edm.png" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <a role="button" class="btn btn-primary" href="src/coffeeShop_edm.html" target="_blank">Live Template</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 end -->
+                <!-- Project 4 -->
+                <div class="col-lg-6">
+                    <!-- Button trigger modal -->
+                    <a class="portfolio-item" data-toggle="modal" data-target="#projectModal_4">
+                        <span class="caption">
+                                    <span class="caption-content">
+                                        <h2>Generic EDM template</h2>
+                                        <ul>
+                                            <li>Built from scratch using email-specific HTML and CSS</li>
+                                            <li>Tested aross over 20 Email Providers and Devices(i.e. Desktop, Tablet, Mobile, etc)</li>
+                                            <li>Modular layouts, such as one-colume layout, two-colume layout, introduction, header, and footer</li>
+                                            <li>Can be customized for different purposes</li>
+                                        </ul>
+                                    </span>
+                        </span>
+                        <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+                    </a>
+                    <!-- Modal -->
+                    <div class="portfolio-content modal fade" id="projectModal_4" tabindex="-1" role="dialog" aria-labelledby="projectModal_4_Title" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="projectModal_4_Title">Generic EDM template</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="viewer">
+                                        <img src="img/generic_edm.png" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <a role="button" class="btn btn-primary" href="src/generic_edm.html" target="_blank">Live Template</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 end -->
             </div>
         </div>
     </section>

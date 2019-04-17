@@ -1,0 +1,26 @@
+#portfolio .portfolio-content .modal-body {
+    height: 460px;
+}
+#portfolio .portfolio-content .viewer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#portfolio .portfolio-content img {
+    width: 100%;
+    position: absolute;
+    animation: animatedImg 9s ease-in-out infinite alternate;
+}
+@keyframes animatedImg {
+    0% {
+        top: 0;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    100% {
+        top: 100%;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+}
