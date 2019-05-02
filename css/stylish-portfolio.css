@@ -288,6 +288,7 @@ footer.footer .social-link:hover {
 }
 a {
     color: #1D809F;
+    cursor: pointer;
 }
 a:hover,
 a:focus,
